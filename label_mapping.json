@@ -1,0 +1,18 @@
+{
+  "label2idx": {
+    "happiness": 0,
+    "anxiety_depression": 1,
+    "anger_aggression": 2
+  },
+  "idx2label": {
+    "0": "happiness",
+    "1": "anxiety_depression",
+    "2": "anger_aggression"
+  },
+  "class_names": [
+    "happiness",
+    "anxiety_depression",
+    "anger_aggression"
+  ],
+  "num_classes": 3
+}

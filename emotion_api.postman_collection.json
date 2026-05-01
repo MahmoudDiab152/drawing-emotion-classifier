@@ -1,0 +1,114 @@
+<<<<<<< HEAD
+{
+  "info": {
+    "name": "Children's Drawing Emotion Analysis API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8000/health"
+      }
+    },
+    {
+      "name": "Get Classes",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8000/classes"
+      }
+    },
+    {
+      "name": "Predict Emotion",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:8000/predict",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": "/path/to/drawing.jpg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Predict — Wrong File Type",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:8000/predict",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": "/path/to/document.pdf"
+            }
+          ]
+        }
+      }
+    }
+  ]
+=======
+{
+  "info": {
+    "name": "Children's Drawing Emotion Analysis API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8000/health"
+      }
+    },
+    {
+      "name": "Get Classes",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8000/classes"
+      }
+    },
+    {
+      "name": "Predict Emotion",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:8000/predict",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": "/path/to/drawing.jpg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Predict — Wrong File Type",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:8000/predict",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": "/path/to/document.pdf"
+            }
+          ]
+        }
+      }
+    }
+  ]
+>>>>>>> 43a3e6cfe07fe427e4858aa3bffac75900eb37b3
+}
